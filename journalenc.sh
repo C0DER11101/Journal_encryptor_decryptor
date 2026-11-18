@@ -124,6 +124,8 @@ encrypt() {
 
 	fi
 
+	rm "${dir}${folder}${entry}"
+
 }
 
 # directory to search for my journals
